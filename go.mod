@@ -2,6 +2,8 @@ module github.com/devopsfaith/krakend-ce
 
 go 1.12
 
+replace github.com/devopsfaith/krakend v1.2.0-qvantel => ../krakend
+
 require (
 	contrib.go.opencensus.io/exporter/jaeger v0.0.0-20190424224017-5b8293c22f36 // indirect
 	contrib.go.opencensus.io/exporter/prometheus v0.0.0-20190424224027-f02a6e68f94d // indirect
@@ -30,7 +32,7 @@ require (
 	github.com/dancannon/gorethink v4.0.0+incompatible // indirect
 	github.com/denisenkom/go-mssqldb v0.0.0-20190121005146-b04fd42d9952 // indirect
 	github.com/devopsfaith/bloomfilter v0.0.0-20190317200532-4687d0b9aa2a
-	github.com/devopsfaith/krakend v1.1.1
+	github.com/devopsfaith/krakend v1.2.0-qvantel
 	github.com/devopsfaith/krakend-amqp v1.1.0
 	github.com/devopsfaith/krakend-botdetector v0.0.0-20190711145323-c5fcb969addb
 	github.com/devopsfaith/krakend-cel v0.0.0-20190502130550-d6872fd4f97e

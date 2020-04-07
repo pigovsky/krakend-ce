@@ -3,6 +3,7 @@ module github.com/devopsfaith/krakend-ce
 go 1.12
 
 replace github.com/devopsfaith/krakend v1.2.0-qvantel => ../krakend
+replace github.com/devopsfaith/krakend-jose v1.1.0 => ../krakend-jose
 
 require (
 	contrib.go.opencensus.io/exporter/jaeger v0.0.0-20190424224017-5b8293c22f36 // indirect
